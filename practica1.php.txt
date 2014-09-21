@@ -1,0 +1,13 @@
+<html>
+<body>
+<?php
+
+	echo "Conversion de pesos a dolares"; 
+	define ('US',0.075686);
+	$peso=23;
+	echo $peso;
+	$conver=$peso*US;
+	echo "Su conversion es: US$" $conver;
+?>
+</body>
+</html>
